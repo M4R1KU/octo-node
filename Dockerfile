@@ -1,4 +1,4 @@
-FROM node:alpine
+FROM node:stretch-slim
 
 ENV OCTOPUS_VERSION 4.39.0
 
