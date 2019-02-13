@@ -1,4 +1,4 @@
-FROM node:stretch-slim
+FROM node:stretch
 
 ENV OCTOPUS_VERSION 4.39.0
 
