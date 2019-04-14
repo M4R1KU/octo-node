@@ -1,6 +1,6 @@
 FROM node:stretch-slim
 
-ENV OCTOPUS_VERSION 4.39.0
+ENV OCTOPUS_VERSION 6.2.3
 
 # Install CoreCLR dependencies for Octopus CLI and node-gyp
 RUN apt-get update && apt-get -y install zip libunwind8 g++ build-essential python && \
